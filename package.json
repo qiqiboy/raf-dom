@@ -1,6 +1,6 @@
 {
   "name": "raf-dom",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "requestAnimation & cancelAnimationFrame cross browsers",
   "main": "index.js",
   "scripts": {
