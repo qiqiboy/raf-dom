@@ -1,5 +1,5 @@
 var lastTime = 0;
-var ROOT = typeof globalThis !== 'undefined' ? globalThis : window;
+var ROOT = typeof window !== 'undefined' ? window : global;
 
 var requestAnimationFrame = ROOT.requestAnimationFrame ||
         ROOT.webkitRequestAnimationFrame ||
